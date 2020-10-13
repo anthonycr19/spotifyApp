@@ -50,7 +50,7 @@ export class SpotifyService {
 
   getopTracks( id:string ) {
     const headers = new HttpHeaders({
-      'Authorization': 'Bearer BQCZOmKE9mkT1_4X6fiMePb3wRPuDAhKL6RH5JAiNd03ZAaKH17QL88uEQmrh1dgJx48ltToO1uSO4Q7oio'
+      'Authorization': 'Bearer BQAUMEKgG5bBEBatxRPXCz0wHHewz1eWgmqVbDAGBebk9ZInsUKr_PY8XFcBuTvDrVYlDRpZRhGyZPCgzeU'
     });
 
     return this.http.get(`https://api.spotify.com/v1/artists/${id}/top-tracks?country=us`, {headers})
